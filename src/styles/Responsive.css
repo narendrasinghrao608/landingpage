@@ -1,0 +1,55 @@
+@media only screen and (max-width:850px){
+    nav{
+        flex-direction: column;
+    }
+     nav ul{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        height: auto;
+    } 
+    .rp1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rp2{
+        width: 100%;
+    }
+    .overflow-hidden{
+        width: 100%;
+    }
+    .section2{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .section2 p{
+        padding: 0;
+    }
+    .box{
+        min-width: 68vw;
+    }
+    .prampara{
+        margin: 7px 15px;
+        width: 59vw;
+    }
+    .burger{
+        display: block;
+    }
+    .line{
+        border: 2px solid rgb(103, 103, 181);
+        width: 33px;
+        height: 3px;
+        margin: 5px 3px;
+    }
+    .h-nav-rsp{
+        height: 72px;
+    }
+    .v-class-rsp{
+        opacity: 0;
+    }
+}
